@@ -150,9 +150,6 @@
     grid-template-columns: 1fr;
   }
 
-  .faq-container {
-    grid-template-columns: 1fr;
-  }
 
   .contact-content {
     grid-template-columns: 1fr;
@@ -204,6 +201,13 @@
   .hero-tagline {
     font-size: 1.3rem;
   }
+
+  .close-btn {
+  top: 20px;
+  right: 30px;
+  font-size: 20px;
+  padding: 0px 8px;
+}
 
   .cursor {
     display: none !important;
@@ -299,5 +303,47 @@
   width: 100%;
   height: 100% !important;
   transform: scale(1.6);
+}
+}
+
+@media (max-width: 370px) {
+ .contact-card {
+  width: 300px;
+  margin: auto;
+}
+.contact-form-container{
+  width: 300px;
+  margin: auto;
+}
+.contact-box-email{
+  font-size: 12px !important;
+  margin-top: -10px !important;
+}
+}
+
+@media (max-width: 340px) {
+ .contact-card {
+  width: 280px;
+  margin: auto;
+}
+
+.contact-form-container{
+  width: 280px;
+  margin: auto;
+}
+
+.contact-box-email{
+  display: none;
+}
+.contact-box-link{
+  display: block;
+}
+
+.footer-bottom{
+  gap: 25px !important;
+}
+.back-to-top {
+    width: 50px !important;
+    height: 40px;
 }
 }

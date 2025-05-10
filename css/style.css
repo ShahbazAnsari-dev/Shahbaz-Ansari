@@ -1313,75 +1313,6 @@ section {
   display: block;
 }
 
-/* ===== FAQ SECTION ===== */
-.faq-section {
-  background: linear-gradient(to bottom, var(--background-color), rgba(26, 26, 46, 0.8));
-}
-
-.faq-container {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.faq-item {
-  background: var(--card-color);
-  border-radius: var(--border-radius-md);
-  margin-bottom: 20px;
-  border: 1px solid var(--border-color);
-  overflow: hidden;
-}
-
-.faq-question {
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  cursor: pointer;
-}
-
-.faq-question h3 {
-  font-family: var(--font-primary);
-  font-size: 1.1rem;
-  font-weight: 500;
-}
-
-.faq-toggle {
-  background: transparent;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: var(--transition);
-}
-
-.faq-toggle i {
-  transition: var(--transition);
-}
-
-.faq-item.active .faq-toggle i {
-  transform: rotate(45deg);
-}
-
-.faq-answer {
-  padding: 0 20px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease, padding 0.3s ease;
-}
-
-.faq-item.active .faq-answer {
-  padding: 0 20px 20px;
-  max-height: 1000px;
-}
-
-.faq-answer p {
-  color: var(--text-color-light);
-  line-height: 1.6;
-}
-
 /* ===== CONTACT SECTION ===== */
 .contact-section {
   background: linear-gradient(to bottom, rgba(26, 26, 46, 0.8), var(--background-color));
@@ -1512,6 +1443,9 @@ section {
   resize: vertical;
 }
 
+.contact-box-link{
+  display: none;
+}
 /* ===== FOOTER ===== */
 .footer {
   background: var(--card-color);
