@@ -22,15 +22,6 @@ Visit the live site: [shahbazansari.site](https://shahbazansari.site)
 - Font Awesome for icons
 - Google Fonts for typography
 
-## 📂 Folder Structure
-
-├── 📁 assets/ # images, icons, and other media
-├── 📁 css/ # custom stylesheets
-├── 📁 js/ # JavaScript files
-├── index.html # main homepage
-├── about.html # about me section (optional)
-└── contact.html # contact page (optional)
-
 
 ## 📷 Image Visibility on Google
 
@@ -45,8 +36,8 @@ To help my profile picture appear in Google Images for the search term **"Shahba
 
 If you'd like to work with me or have any questions, feel free to reach out:
 
-- Email: `your-email@example.com`
-- LinkedIn: [linkedin.com/in/shahbazansari](https://linkedin.com/in/shahbazansari)
+- Email: `shahbazansari.dev@gmail.com`
+- LinkedIn: `https://www.linkedin.com/in/shahbaz-web-developer/`
 
 ---
 
