@@ -36,8 +36,8 @@ To help my profile picture appear in Google Images for the search term **"Shahba
 
 If you'd like to work with me or have any questions, feel free to reach out:
 
-- Email: `shahbazansari.dev@gmail.com`
-- LinkedIn: `https://www.linkedin.com/in/shahbaz-web-developer/`
+- Email: shahbazansari.dev@gmail.com
+- LinkedIn: https://www.linkedin.com/in/shahbaz-web-developer/
 
 ---
 
